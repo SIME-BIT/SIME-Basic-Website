@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -14,43 +15,35 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
+
   <body>
+
     <!-- Navbar -->
     <nav
       class="navbar navbar-expand-md sticky-top navbar-dark"
-      style="background-color: #0e918c"
+      style="background-color: rgb(14, 145, 140, 0.75) !important"
     >
       <div class="container-fluid">
         <a href="/" class="navbar-brand"
-          ><img src="./Images/Sime Crop Logo.png" alt="logo.png" width="190em"
+          ><img src="./Images/Sime Crop Logo White.png" alt="logo.png" width="190em"
         /></a>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse offset"
-          id="navbarSupportedContent"
+          class="collapse navbar-collapse"
+          id="navbarResponsive"
         >
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
@@ -74,7 +67,7 @@
 
     <!-- Image Carousel Slider -->
     <div class="image-slider">
-      <div id="carousel-images" class="carousel slide" data-ride="carousel">
+      <div id="carousel-images" class="carousel slide carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carousel-images" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-images" data-slide-to="1"></li>
@@ -83,31 +76,31 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./Images/industry 4.jpg" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1 class="display-2">Industry 4.0</h1>
-              <p class="h4">Prepare for this revolution of the industry.</p>
+            <img src="./Images/industry 4.jpg" alt="industry4.0.png">
+            <div class="carousel-caption">
+              <h1>Industry 4.0</h1>
+              <p>Prepare for this revolution of the industry.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./Images/welding engineer.jpg" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1 class="display-2">Hands-On Experience</h1>
-              <p class="h5">Get Hands-on experience by doing various research projects.</p>
-            </div>
-          </div>>
-          <div class="carousel-item">
-            <img src="./Images/young-man-engineer-making-program-analyses.jpg" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="./Images/welding engineer.jpg" alt="weld.png">
+            <div class="carousel-caption ">
+              <h1>Hands-On Xp</h1>
+              <p>Get Hands-on experience by doing various research projects.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./Images/steel-pipelines-cables-plant.jpg" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <img src="./Images/young-man-engineer-making-program-analyses.jpg" alt="coding.png">
+            <div class="carousel-caption ">
+              <h1>Team </h1>
+              <p>Get Hands-on experience by doing various research projects.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/steel-pipelines-cables-plant.jpg" alt="lab.png">
+            <div class="carousel-caption ">
+              <h1>Hands-On Experience</h1>
+              <p>Get Hands-on experience by doing various research projects.</p>
             </div>
           </div>
         </div>
@@ -121,5 +114,19 @@
         </a>
       </div>
     </div>
+
+    <!-- Script Files -->
+      <!-- Bootstrap Script Files -->
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"
+      ></script>
+    <!-- Font awesome script files -->
   </body>
 </html>

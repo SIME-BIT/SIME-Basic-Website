@@ -9,22 +9,35 @@ font-family: 'Roboto', sans-serif; */
 html,body{
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
-.display-2{
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.carousel-caption h1
+{
     font-family: 'Roboto', sans-serif;
-    /* color:rgb(206, 52, 52); */
+    /* color:rgb(206, 52, 52);  Red */
+    /* color:rgb(244, 159, 28); Yellow */
     color: #0e918c;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    text-shadow: 0.1rem 0.1rem 0 black;
 }
 
-p{
+.carousel-caption p{
     font-family: 'Montserrat', sans-serif;
     color: #0e918c;
-}
-
-.image-slider{
-    width: 100%;
-    height: 50%;
+    font-size: 1.5em;
+    text-shadow: 0.05rem 0.05rem 0.1rem black;
 }
 
 .navbar-nav li{
@@ -38,9 +51,9 @@ p{
 
 .carousel-inner img{
     width: 100%;
-    height: 35em;
+    height: 70vh;
     object-fit: cover;
-    opacity: 0.30;
+    opacity: 0.3;
 }
 
 .carousel-control-next,
