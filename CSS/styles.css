@@ -12,6 +12,11 @@ html,body{
     overflow-x: hidden;
 }
 
+.navbar{
+    height: 15vh;
+    z-index: 3;
+}
+
 .carousel-caption{
     position: absolute;
     bottom: 15%;
@@ -31,12 +36,14 @@ html,body{
     letter-spacing: 0.2rem;
     font-weight: bold;
     text-shadow: 0.1rem 0.1rem 0 black;
+    padding: 0 1rem;
 }
 
 .carousel-caption p{
     font-family: 'Montserrat', sans-serif;
     /* color: #0e918c; */
     font-size: 1.5em;
+    padding: 1rem;
     text-shadow: 0.05rem 0.05rem 0.1rem black;
 }
 
