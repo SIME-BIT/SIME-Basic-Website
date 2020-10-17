@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Open+Sans:ital@0;1&display=swap');
+
 /* Font
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
+font-family: 'Crimson Text', serif;
+font-family: 'Open Sans', sans-serif;
+ */
 
 /* Colors
 244/159/28 
@@ -10,6 +13,14 @@ html,body{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+}
+
+h1{
+    font-family: 'Crimson Text', serif;
+}
+
+p, a{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar{
@@ -27,7 +38,6 @@ html,body{
 
 .carousel-caption h1
 {
-    font-family: 'Roboto', sans-serif;
     /* color:rgb(206, 52, 52);  Red */
     /* color:rgb(244, 159, 28); Yellow */
     /* color: #0e918c; */
@@ -40,7 +50,6 @@ html,body{
 }
 
 .carousel-caption p{
-    font-family: 'Montserrat', sans-serif;
     /* color: #0e918c; */
     font-size: 1.5em;
     padding: 1rem;
