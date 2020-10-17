@@ -9,6 +9,10 @@ font-family: 'Open Sans', sans-serif;
 244/159/28 
  206/52/52 */
 
+nav{
+    background-color: rgb(14, 145, 140, 0.9);
+}
+
 html,body{
     height: 100%;
     width: 100%;
@@ -24,7 +28,7 @@ p, a{
 }
 
 .navbar{
-    height: 15vh;
+    min-height: 15vh;
     z-index: 3;
 }
 
