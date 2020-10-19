@@ -9,31 +9,15 @@ font-family: 'Open Sans', sans-serif;
 244/159/28 
  206/52/52 */
 
-nav{
-    background-color: rgb(14, 145, 140, 0.9);
-}
+/* General */
 
-html,body{
+ html,body{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
 }
 
-.sime-logo{
-    position: absolute;
-    left: 0;
-    width : 18em;
-    padding : 0 2rem;
-    display: none;
-}
-
-.sime-logo-sm{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width : 10em;
-    padding : 0 1rem;
-}
+/* Typography */
 
 h1{
     /* font-family: 'Crimson Text', serif; */
@@ -44,10 +28,41 @@ p, a{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Sime logo section */
+
+.sime-logo{
+    position: absolute;
+    top: 0.5em;
+    left: -1.5em;
+    width : 23em;
+    padding : 0 2rem;
+}
+
+.sime-logo-sm{
+    position: absolute;
+    display: none;
+}
+
+/* Navbar */
+
+nav{
+    background-color: rgb(14, 145, 140);
+}
+
 .navbar{
     min-height: 15vh;
-    z-index: 3;
+    z-index: 2;
 }
+
+.navbar-nav li{
+    padding-right: 1rem;
+}
+
+.nav-link{
+    font-size: 1.25em;
+}
+
+/* Carousel */
 
 .carousel-caption{
     position: absolute;
@@ -63,7 +78,7 @@ p, a{
     /* color:rgb(244, 159, 28); Yellow */
     /* color: #0e918c; */
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 3.5em;
     letter-spacing: 0.2rem;
     font-weight: bold;
     text-shadow: 0.1rem 0.1rem 0 black;
@@ -72,22 +87,15 @@ p, a{
 
 .carousel-caption p{
     /* color: #0e918c; */
-    font-size: 1.5em;
-    padding: 0 0.25rem;
+    font-size: 1.75em;
+    padding: 0 0.5rem;
     text-shadow: 0.05rem 0.05rem 0.1rem black;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .carousel-control-prev,.carousel-control-next{
     width: 4%;
-}
-
-.navbar-nav li{
-    padding-right: 1.5rem;
-}
-
-.nav-link{
-    font-size: 1.25em;
-    font-family: Open-sans, sans-serif;
 }
 
 .carousel-item{
@@ -100,4 +108,40 @@ p, a{
     height: 85vh;
     object-fit: cover;
     opacity: 0.3;
+}
+
+/* First section media query */
+
+@media all and (max-width :768px){
+
+    /* SIME logo */
+
+    .sime-logo{
+        display: none;
+    }
+    
+    .sime-logo-sm{
+        left: 0;
+        top: 0.5em;
+        width : 12em;
+        padding : 0 2.5rem;
+        display: inline-block;
+    }
+
+    /* Navbar media query */
+    .navbar-nav li:first-child{
+        padding-top: 1.5rem;
+    }
+
+    /* Carousel Caption */
+    .carousel-caption h1
+    {
+        font-size: 2em;
+        letter-spacing: 0.2rem;
+    }
+
+    .carousel-caption p{
+        /* color: #0e918c; */
+        font-size: 1em;
+    }
 }
