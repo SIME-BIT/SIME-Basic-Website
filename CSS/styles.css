@@ -31,7 +31,7 @@ p, a{
 /* Sime logo section */
 
 .sime-logo{
-    width : 3em;
+    width : 4em;
 
 }
 
@@ -47,6 +47,7 @@ nav{
 }
 
 .navbar-nav li{
+    font-size: larger;
     padding-right: 1rem;
 }
 
@@ -105,6 +106,21 @@ nav{
 /* First section media query */
 
 @media all and (max-width :750px){
+
+    /* Navbar */
+
+    .navbar-nav li{
+        font-size: small;
+        /* font-size: larger; */
+        padding-right: 1rem;
+    }
+
+    /* SIME logo */
+
+    .sime-logo{
+        width : 3em;
+    
+    }
 
     /* Carousel Caption */
 
