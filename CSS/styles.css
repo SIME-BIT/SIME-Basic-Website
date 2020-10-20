@@ -31,16 +31,8 @@ p, a{
 /* Sime logo section */
 
 .sime-logo{
-    position: absolute;
-    top: 0.5em;
-    left: -1.5em;
-    width : 23em;
-    padding : 0 2rem;
-}
+    width : 3em;
 
-.sime-logo-sm{
-    position: absolute;
-    display: none;
 }
 
 /* Navbar */
@@ -66,7 +58,7 @@ nav{
 
 .carousel-caption{
     position: absolute;
-    bottom: 15%;
+    bottom: 25%;
     width: 100%;
     left: 0;
     right: 0;
@@ -112,28 +104,14 @@ nav{
 
 /* First section media query */
 
-@media all and (max-width :768px){
-
-    /* SIME logo */
-
-    .sime-logo{
-        display: none;
-    }
-    
-    .sime-logo-sm{
-        left: 0;
-        top: 0.5em;
-        width : 12em;
-        padding : 0 2.5rem;
-        display: inline-block;
-    }
-
-    /* Navbar media query */
-    .navbar-nav li:first-child{
-        padding-top: 1.5rem;
-    }
+@media all and (max-width :750px){
 
     /* Carousel Caption */
+
+    .carousel-caption{
+        bottom: 35%;
+    }
+
     .carousel-caption h1
     {
         font-size: 2em;
@@ -144,4 +122,5 @@ nav{
         /* color: #0e918c; */
         font-size: 1em;
     }
+
 }
