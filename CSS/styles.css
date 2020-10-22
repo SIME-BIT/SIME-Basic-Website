@@ -22,6 +22,12 @@ font-family: 'Open Sans', sans-serif;
 h1{
     /* font-family: 'Crimson Text', serif; */
     font-family: 'Reem Kufi', sans-serif;
+    text-transform: uppercase;
+}
+
+.h1-heading{
+    color: rgb(14, 145, 140);
+
 }
 
 p, a{
@@ -31,7 +37,7 @@ p, a{
 /* Sime logo section */
 
 .sime-logo{
-    width : 4em;
+    width : 4.4em;
 
 }
 
@@ -39,11 +45,11 @@ p, a{
 
 nav{
     background-color: rgb(14, 145, 140);
+    z-index: 7;
 }
 
 .navbar{
     min-height: 15vh;
-    z-index: 2;
 }
 
 .navbar-nav li{
@@ -52,10 +58,14 @@ nav{
 }
 
 .nav-link{
-    font-size: 1.25em;
+    font-size: 1.2em;
 }
 
 /* Carousel */
+
+.image-slider{
+    margin-bottom: 2.75rem;
+}
 
 .carousel-caption{
     position: absolute;
@@ -70,7 +80,6 @@ nav{
     /* color:rgb(206, 52, 52);  Red */
     /* color:rgb(244, 159, 28); Yellow */
     /* color: #0e918c; */
-    text-transform: uppercase;
     font-size: 3.5em;
     letter-spacing: 0.2rem;
     font-weight: bold;
@@ -103,7 +112,19 @@ nav{
     opacity: 0.3;
 }
 
-/* First section media query */
+.carousel-indicators li {
+    border-radius: 100%;
+    z-index: 2;
+  }
+
+/* fb page */
+.fb-page{
+    background-color: #ebebeb;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* Media query */
 
 @media all and (max-width :750px){
 
@@ -112,13 +133,12 @@ nav{
     .navbar-nav li{
         font-size: small;
         /* font-size: larger; */
-        padding-right: 1rem;
     }
 
     /* SIME logo */
 
     .sime-logo{
-        width : 3em;
+        width : 3.5em;
     
     }
 
@@ -137,6 +157,11 @@ nav{
     .carousel-caption p{
         /* color: #0e918c; */
         font-size: 1em;
+    }
+
+    /* fb page */
+    .fb-page{
+        margin-top: 1.5rem;
     }
 
 }
