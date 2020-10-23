@@ -117,22 +117,60 @@ nav{
     z-index: 2;
   }
 
+/* About */
+.sime-about-logo{
+    width: 65%;
+}
+
+.about-section{
+    text-align: center;
+}
+
 /* fb page */
 .fb-page{
     background-color: #ebebeb;
     padding: 1.5rem;
     text-align: center;
+    margin: 1.5rem 0;
+    width: fit-content;
+}
+
+/* footer */
+
+footer{
+    padding: 1rem;
+    background-color: rgb(14, 145, 140);
+}
+
+hr{
+    width: 25%;
+}
+
+/* .footer-section p{ */
+/* } */
+
+.footer-section a{
+    color: #212529;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #f1f6f9;
+}
+
+.fab-icon{
+    font-size: 1.75em;
+    padding-right: 0.5rem;
 }
 
 /* Media query */
 
-@media all and (max-width :750px){
+@media all and (max-width :768px){
 
     /* Navbar */
 
     .navbar-nav li{
         font-size: small;
-        /* font-size: larger; */
     }
 
     /* SIME logo */
@@ -155,13 +193,6 @@ nav{
     }
 
     .carousel-caption p{
-        /* color: #0e918c; */
         font-size: 1em;
     }
-
-    /* fb page */
-    .fb-page{
-        margin-top: 1.5rem;
-    }
-
 }
