@@ -118,9 +118,6 @@ nav{
   }
 
 /* About */
-.sime-about-logo{
-    width: 65%;
-}
 
 .about-section{
     text-align: center;
@@ -138,7 +135,11 @@ nav{
 /* we-do section */
 .we-do{
     text-align: center;
-    padding-top: 1.5rem;
+    padding: 1.5rem;
+}
+
+.we-do-heading{
+    padding: 1rem;
 }
 
 .we-do h3{
@@ -147,6 +148,11 @@ nav{
 
 .we-do img{
     padding: 1.5rem;
+    width: 10em;
+}
+
+.we-do hr{
+   padding-top: .5rem;
 }
 
 .about-section p, .we-do p{
