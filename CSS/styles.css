@@ -19,7 +19,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* Typography */
 
-h1{
+h1,h2,h3{
     /* font-family: 'Crimson Text', serif; */
     font-family: 'Reem Kufi', sans-serif;
     text-transform: uppercase;
@@ -135,6 +135,24 @@ nav{
     width: fit-content;
 }
 
+/* we-do section */
+.we-do{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.we-do h3{
+    padding: 1rem;
+}
+
+.we-do img{
+    padding: 1.5rem;
+}
+
+.about-section p, .we-do p{
+    text-align: justify !important ;
+}
+
 /* footer */
 
 footer{
@@ -161,6 +179,18 @@ hr{
 .fab-icon{
     font-size: 1.75em;
     padding-right: 0.5rem;
+}
+
+.contact-us{
+    padding-top: 1.78rem;
+}
+
+.sime-logo-footer{
+    width: 12%;
+}
+
+.copyright{
+    padding-top: 2rem;
 }
 
 /* Media query */
@@ -194,5 +224,9 @@ hr{
 
     .carousel-caption p{
         font-size: 1em;
+    }
+
+    .sime-logo-footer{
+        width: 20%;
     }
 }
