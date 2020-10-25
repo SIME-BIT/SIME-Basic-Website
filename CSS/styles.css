@@ -152,7 +152,7 @@ nav{
 }
 
 .we-do hr{
-   padding-top: .5rem;
+   border:0;
 }
 
 .about-section p, .we-do p{
@@ -231,6 +231,12 @@ hr{
     .carousel-caption p{
         font-size: 1em;
     }
+
+    .we-do hr{
+        border-bottom: 2px solid #d6d2c4;
+        padding-top: .75rem;
+        width: 50%;
+     }
 
     .sime-logo-footer{
         width: 20%;
