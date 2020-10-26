@@ -12,6 +12,7 @@ font-family: 'Open Sans', sans-serif;
 /* General */
 
  html,body{
+    text-align: center;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -55,6 +56,10 @@ nav, .dropdown-menu{
 .navbar-nav li{
     text-transform: uppercase;
     padding-right: 1rem;
+}
+
+.navbar-nav li:last-child{
+    padding-right: 3rem;
 }
 
 .nav-link{
@@ -207,8 +212,7 @@ hr{
 }
 
 .mail{
-    font-size: larger;
-    padding-top: 3.5rem;
+    font-size: 1.5em;
 }
 
 .copyright{
