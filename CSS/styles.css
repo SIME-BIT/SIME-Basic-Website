@@ -43,7 +43,7 @@ p, a{
 
 /* Navbar */
 
-nav{
+nav, .dropdown-menu{
     background-color: rgb(14, 145, 140);
     z-index: 7;
 }
@@ -53,12 +53,16 @@ nav{
 }
 
 .navbar-nav li{
-    font-size: larger;
+    text-transform: uppercase;
     padding-right: 1rem;
 }
 
 .nav-link{
     font-size: 1.2em;
+}
+
+.dropdown-item{
+    color: #f1f6f9;
 }
 
 /* Carousel */
@@ -121,6 +125,7 @@ nav{
 
 .about-section{
     text-align: center;
+    padding: 0 1.5rem 2rem 1.5rem ;
 }
 
 /* fb page */
@@ -132,10 +137,16 @@ nav{
     width: fit-content;
 }
 
+/* Separator hr */
+.separator{
+    padding-top: 2rem;
+    width: 50%;
+}
+
 /* we-do section */
 .we-do{
     text-align: center;
-    padding: 1.5rem;
+    padding: 0 1.5rem 2rem 1.5rem ;
 }
 
 .we-do-heading{
@@ -184,7 +195,7 @@ hr{
 
 .fab-icon{
     font-size: 1.75em;
-    padding-right: 0.5rem;
+    padding-right: 0.75rem;
 }
 
 .contact-us{
@@ -195,8 +206,17 @@ hr{
     width: 12%;
 }
 
+.mail{
+    font-size: larger;
+    padding-top: 3.5rem;
+}
+
 .copyright{
     padding-top: 2rem;
+}
+
+.copyright-class{
+    font-size: smaller;
 }
 
 /* Media query */
