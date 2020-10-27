@@ -1,11 +1,22 @@
+html,body{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .team-name{
     padding-top: 2rem;
 }
 
 .card{
-    margin: 1rem;
+    margin: 1.25rem auto;
 }
 
 .card-sep{
     width: 15%;
+}
+
+@media all and (max-width :768px){
+
 }

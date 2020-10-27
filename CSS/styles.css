@@ -11,8 +11,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* General */
 
- html,body{
-    text-align: center;
+html,body{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -50,6 +49,7 @@ nav, .dropdown-menu{
 }
 
 .navbar{
+    text-align: left;
     min-height: 15vh;
 }
 
