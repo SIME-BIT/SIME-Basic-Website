@@ -9,7 +9,13 @@ html,body{
 }
 
 .card{
-    margin: 1.25rem auto;
+    margin: 1.25rem 1.5rem;
+    border-bottom: 5px solid blue;
+}
+
+.card-img-top{
+    width: 70%;
+    border-radius: 100%;
 }
 
 .card-sep{
@@ -17,5 +23,7 @@ html,body{
 }
 
 @media all and (max-width :768px){
-
+    .card{
+        margin: 1.25rem auto;
+    }
 }
