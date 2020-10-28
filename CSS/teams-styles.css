@@ -14,6 +14,7 @@ html,body{
 
 .head-card{
     width: 20em;
+    /* height: 15em; */
 }
 
 .sub-card{
@@ -21,7 +22,7 @@ html,body{
 }
 
 .core-team-card{
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid #2a3d66;
 }
 
 .card-img-top{
