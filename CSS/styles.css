@@ -20,8 +20,7 @@ html,body{
 
 /* Typography */
 
-h1,h2,h3,h4{
-    /* font-family: 'Crimson Text', serif; */
+h1,h2,h3,h4,h5,h6{
     font-family: 'Reem Kufi', sans-serif;
     text-transform: uppercase;
 }

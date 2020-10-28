@@ -9,21 +9,40 @@ html,body{
 }
 
 .card{
-    margin: 1.25rem 1.5rem;
+    margin: 1.25rem auto;
+}
+
+.head-card{
+    width: 20em;
+}
+
+.sub-card{
+    width: 19em;
+}
+
+.core-team-card{
     border-bottom: 5px solid blue;
 }
 
 .card-img-top{
-    width: 70%;
+    width: 10em;
+    height: 10em;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 .card-sep{
     width: 15%;
 }
 
-@media all and (max-width :768px){
-    .card{
-        margin: 1.25rem auto;
+@media all and (max-width :750px){
+
+    .head-card{
+        width: 18em;
     }
+    
+    .sub-card{
+        width: 17em;
+    }
+    
 }
