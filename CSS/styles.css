@@ -225,7 +225,11 @@ hr{
 
 /* Media query */
 
-@media all and (max-width :768px){
+@media all and (max-width :750px){
+
+    html{
+        font-size: smaller;
+    }
 
     /* Navbar */
 

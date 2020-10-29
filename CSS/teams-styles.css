@@ -25,6 +25,10 @@ html,body{
     border-bottom: 5px solid #2a3d66;
 }
 
+.rp-team-card{
+    border-bottom: 5px solid #150485;
+}
+
 .card-img-top{
     width: 10em;
     height: 10em;
@@ -37,6 +41,10 @@ html,body{
 }
 
 @media all and (max-width :750px){
+
+    h1{
+        font-size: 2em;
+    }
 
     .head-card{
         width: 18em;
