@@ -79,7 +79,7 @@ nav, .dropdown-menu{
 
 .carousel-caption{
     position: absolute;
-    bottom: 35%;
+    bottom: 5%;
     width: 100%;
     left: 0;
     right: 0;
@@ -90,6 +90,7 @@ nav, .dropdown-menu{
     /* color:rgb(206, 52, 52);  Red */
     /* color:rgb(244, 159, 28); Yellow */
     /* color: #0e918c; */
+    text-align: center;
     font-size: 3em;
     letter-spacing: 0.2rem;
     font-weight: bold;
@@ -251,12 +252,9 @@ hr{
 
     /* Carousel Caption */
 
-    .carousel-caption{
-        bottom: 35%;
-    }
-
     .carousel-caption h1
     {
+        text-align: right;
         font-size: 2em;
         letter-spacing: 0.2rem;
     }
