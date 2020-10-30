@@ -33,7 +33,17 @@ html,body{
     border-bottom: 5px solid #fca652;
 }
 
+.iar-team-card{
+    border-bottom: 5px solid #fcf876;
+}
 
+.events-team-card{
+    border-bottom: 5px solid #af2d2d;
+}
+
+.workshops-team-card{
+    border-bottom: 5px solid #581c0c;
+}
 
 .card-img-top{
     width: 10em;
