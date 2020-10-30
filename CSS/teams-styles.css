@@ -29,6 +29,12 @@ html,body{
     border-bottom: 5px solid #150485;
 }
 
+.opm-team-card{
+    border-bottom: 5px solid #fca652;
+}
+
+
+
 .card-img-top{
     width: 10em;
     height: 10em;
