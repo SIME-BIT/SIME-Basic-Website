@@ -100,16 +100,6 @@ nav, .dropdown-menu{
     margin: 0 auto; */
 }
 
-.carousel-caption p{
-    /* color: #0e918c; */
-    /* font-size: 1.75em;
-    padding: 0 0.5rem;
-    text-shadow: 0.05rem 0.05rem 0.1rem black;
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 1.5em; */
-}
-
 .carousel-control-prev,.carousel-control-next{
     width: 4%;
 }
