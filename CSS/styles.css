@@ -171,6 +171,11 @@ nav, .dropdown-menu{
     text-align: justify !important ;
 }
 
+/* Recruit */
+.recruit img{
+    width: 85%
+}
+
 /* footer */
 
 footer{
