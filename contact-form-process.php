@@ -1,7 +1,9 @@
 <?php
 if (isset($_POST['Email'])) {
+
+    // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "sime@bitmesra.ac.in";
-    $email_subject = "New message from a website user!";
+    $email_subject = "New form submissions";
 
     function problem($error)
     {
@@ -67,7 +69,7 @@ if (isset($_POST['Email'])) {
 
     <!-- include your success message below -->
 
-    Thank you for contacting us. Our executives will get in touch with you very soon.
+    Thank you for contacting us. We will be in touch with you very soon.
 
 <?php
 }
