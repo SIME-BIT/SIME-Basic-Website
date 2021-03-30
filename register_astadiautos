@@ -2,32 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>SIME- BIT, Mesra</title>
-    <meta name="description" content="Society for Industrial Management and Engineering provides a platform for the BIT Mesra
-    undergraduates through industrial visits, event seminar, webinars, research projects, workshops, annual meets.">
-    <meta name="keywords" content="SIME, Society for Industrial Management and Engineering, Industrial engineering, Management engineering, Engineering, researchers , industrial visits, technical fests in ranchi, SIME BIT Mesra, bit mesra, bit mesra clubs,SIME facebook, bit mesra, bit mesra campus, bit mesra erp,bits ranchi, bit ranchi, birla institute of technology and science, birla institute of technology ranchi">
-    <meta name="author" content="SIME">   
-
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <meta name="robots" content="index, follow" />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
-    <meta property="fb:pages" content="106566424509928">
-    <meta property="og:description" content="Society for Industrial Management and Engineering provides a platform for the BIT Mesra
-    undergraduates through industrial visits, event seminar, webinars, research projects, workshops, annual meets."/>
-    <meta property="og:image" content="https://d33wubrfki0l68.cloudfront.net/50e5cc4eaec5d12776b0307c3fa9121a39b98df5/cfd33/images/sime.png"/>
-    <meta property="og:site_name" content="SIME">
-    <meta property="og:url" content="https://simebitmesra.com/" />
-    <meta name="google-site-verification" content="google-site-verification=7YBlWWJfwbLs4f6abCSxR2FU42LjXrkBRGP_5txJIwA" />
-
+    <title>SIME - OPM Team</title>
     <link rel="icon" href="./Images/SIME.png" />
     <link
       rel="stylesheet"
@@ -36,6 +15,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/teams-styles.css" />
   </head>
 
   <body>
@@ -45,7 +25,7 @@
     >
       <div class="container-fluid">
         <a href="./index.html" class="navbar-brand"
-          ><img loading="lazy"   class="sime-logo" src="./Images/SIME.png" alt="logo.png"
+          ><img   class="sime-logo" src="./Images/SIME.png" alt="logo.png"
         /></a>
         <button
           class="navbar-toggler"
@@ -60,7 +40,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="./index.html"
                 >Home<span class="sr-only">(current)</span></a
               >
@@ -76,7 +56,7 @@
                  <a class="dropdown-item" href="https://www.linkedin.com/company/sime-bitmesra" target="_blank">LINKEDIN</a>
               </div>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown active">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Our Team
               </a>
@@ -89,40 +69,38 @@
                 <a class="dropdown-item" href="./workshop.html">Workshops</a>
               </div>
             </li>
-             <li class="nav-item">
+              <li class="nav-item">
               <a class="nav-link" href="https://medium.com/spark-by-sime" target="_blank" rel="noopener noreferrer"
                 >SPARK</a>
             </li>
-      
             <li class="nav-item">
-              <a class="nav-link" href="./contact.html" target="_blank" rel="noopener noreferrer"
-                >CONTACT US</a>
+              <a class="nav-link contact-button" href="#footer-section">Contact</a>
             </li>
-             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-   
+
+
 
     <!-- Footer -->
     <footer id="footer-section">
       <div class="container-fluid padding footer-section">
         <div class="row text-center padding justify-content-center">
           <div class="col-lg-5">
-            <img loading="lazy"   class="sime-logo-footer" src="./Images/SIME.png" alt="sime-footer.png">
+            <img   class="sime-logo-footer" src="./Images/SIME.png" alt="sime-footer.png">
             <hr>
             <p>
               SIME- BIT, Mesra promises to fulfill its motto of creating an ecosystem for the development of
-              undergraduate to make them fit for industries.<br>
+              undergraduate to make them fit for industries. <br>
               <h5>innovate, inculcate and inspire</h5>
             </p>
           </div>
           <div class="col-lg-4 contact-us">
             <h2>Contact Us</h2>
             <hr>
-            <p>Birla Institute of Technology, Mesra<br>Ranchi, Jharkhand <br>India- 835215 <br> </p>
+            <p>Birla Institute of Technology, Mesra<br>Ranchi, Jharkhand <br>India- 835215 <br></p>
             <a class="mail" href="mailto:sime@bitmesra.ac.in"><b>Email</b>-<br> sime@bitmesra.ac.in</a></p>
             <a class="fab-icon" href="http://www.facebook.com/sime.bitmesra" target="_blank"><i class="fab fa-facebook"></i></a>
             <a class="fab-icon" href="http://www.linkedin.com/company/sime-bitmesra" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -135,25 +113,18 @@
           </div>
         </div>
       </div>
-
-
-
-
-
-</body>
-</html>
     </footer>
-
+  
     <!-- Script Files -->
 
       <!-- Bootstrap Script Files -->
 
-      <script defer
+      <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"
       ></script>
-      <script defer
+      <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"
