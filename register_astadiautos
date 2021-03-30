@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
+    <title>SIME- BIT, Mesra</title>
+    <meta name="description" content="Society for Industrial Management and Engineering provides a platform for the BIT Mesra
+    undergraduates through industrial visits, event seminar, webinars, research projects, workshops, annual meets.">
+    <meta name="keywords" content="SIME, Society for Industrial Management and Engineering, Industrial engineering, Management engineering, Engineering, researchers , industrial visits, technical fests in ranchi, SIME BIT Mesra, bit mesra, bit mesra clubs,SIME facebook, bit mesra, bit mesra campus, bit mesra erp,bits ranchi, bit ranchi, birla institute of technology and science, birla institute of technology ranchi">
+    <meta name="author" content="SIME">   
+
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <meta property="fb:pages" content="106566424509928">
+    <meta property="og:description" content="Society for Industrial Management and Engineering provides a platform for the BIT Mesra
+    undergraduates through industrial visits, event seminar, webinars, research projects, workshops, annual meets."/>
+    <meta property="og:image" content="https://d33wubrfki0l68.cloudfront.net/50e5cc4eaec5d12776b0307c3fa9121a39b98df5/cfd33/images/sime.png"/>
+    <meta property="og:site_name" content="SIME">
+    <meta property="og:url" content="https://simebitmesra.com/" />
+    <meta name="google-site-verification" content="google-site-verification=7YBlWWJfwbLs4f6abCSxR2FU42LjXrkBRGP_5txJIwA" />
+
+    <link rel="icon" href="./Images/SIME.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-md sticky-top navbar-dark"
+    >
+      <div class="container-fluid">
+        <a href="./index.html" class="navbar-brand"
+          ><img loading="lazy"   class="sime-logo" src="./Images/SIME.png" alt="logo.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SOCIAL MEDIA
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://www.youtube.com/channel/UCAaEV7A5_aasDHtcoeupSJg/featured" target="_blank">Youtube</a>
+                 <a class="dropdown-item" href="https://www.facebook.com/sime.bitmesra" target="_blank">FACEBOOK</a>
+                 <a class="dropdown-item" href="https://www.instagram.com/sime.bitmesra/" target="_blank">INSTAGRAM</a>
+                 <a class="dropdown-item" href="https://www.linkedin.com/company/sime-bitmesra" target="_blank">LINKEDIN</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Our Team
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./core.html">Core</a>
+                <a class="dropdown-item" href="./rp.html">Research proceeding</a>
+                <a class="dropdown-item" href="./OPM.html">Operations and Management</a>
+                <a class="dropdown-item" href="./iar.html">Industry and alumni relations</a>
+                <a class="dropdown-item" href="./events.html">Events</a>
+                <a class="dropdown-item" href="./workshop.html">Workshops</a>
+              </div>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="https://medium.com/spark-by-sime" target="_blank" rel="noopener noreferrer"
+                >SPARK</a>
+            </li>
+      
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html" target="_blank" rel="noopener noreferrer"
+                >CONTACT US</a>
+            </li>
+             </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   
+
+    <!-- Footer -->
+    <footer id="footer-section">
+      <div class="container-fluid padding footer-section">
+        <div class="row text-center padding justify-content-center">
+          <div class="col-lg-5">
+            <img loading="lazy"   class="sime-logo-footer" src="./Images/SIME.png" alt="sime-footer.png">
+            <hr>
+            <p>
+              SIME- BIT, Mesra promises to fulfill its motto of creating an ecosystem for the development of
+              undergraduate to make them fit for industries.<br>
+              <h5>innovate, inculcate and inspire</h5>
+            </p>
+          </div>
+          <div class="col-lg-4 contact-us">
+            <h2>Contact Us</h2>
+            <hr>
+            <p>Birla Institute of Technology, Mesra<br>Ranchi, Jharkhand <br>India- 835215 <br> </p>
+            <a class="mail" href="mailto:sime@bitmesra.ac.in"><b>Email</b>-<br> sime@bitmesra.ac.in</a></p>
+            <a class="fab-icon" href="http://www.facebook.com/sime.bitmesra" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a class="fab-icon" href="http://www.linkedin.com/company/sime-bitmesra" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="fab-icon" href="http://www.instagram.com/sime.bitmesra" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="fab-icon" href="https://www.youtube.com/channel/UCAaEV7A5_aasDHtcoeupSJg" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="row padding justify-content-center copyright">
+            <p class="copyright-class">Copyright ©2020 All Rights Reserved | SIME</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+</body>
+</html>
+    </footer>
+
+    <!-- Script Files -->
+
+      <!-- Bootstrap Script Files -->
+
+      <script defer
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script defer
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"
+      ></script>
+
+      <!-- Font awesome script files -->
+
+      <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
+
+      <!-- Auto-close the navbar in mobile view -->
+
+      <script>
+        $('.contact-button').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
+  </body>
+</html>
