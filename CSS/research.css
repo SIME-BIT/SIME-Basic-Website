@@ -4,14 +4,16 @@
     
 }
 .container img{
-    width: 100%;
+    width: 90%;
     height:50%;
     text-transform: none;
     margin-top: 20px;
     margin-bottom: 40px;
     
 }
-
+.container p{
+  text-align:center;
+}
 .container h5{
     text-transform: none;
     text-align: justify;
