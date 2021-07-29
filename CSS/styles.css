@@ -250,6 +250,10 @@ hr{
         width : 3.5em;
     
     }
+/*   sponsor  */
+  .sponsor img{
+        width: 80%;
+    }
 
     /* Carousel Caption */
 
