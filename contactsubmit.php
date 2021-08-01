@@ -1,4 +1,36 @@
 <?php
+	$email_from = 'btech10685.18@bitmesra.ac.in';
+
+	$email_subject = "New Form submission";
+
+	$email_body = "You have received a new message from the user $name.\n".
+                            "Here is the message:\n $message".
+        
+        
+        
+    $to = "btech10685.18@bitmesra.ac.in";
+
+  $headers = "From: $email_from \r\n";
+
+  $headers .= "Reply-To: $visitor_email \r\n";
+
+  mail($to,$email_subject,$email_body,$headers);
+    
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <?php
 if (isset($_POST['submit'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
@@ -74,3 +106,4 @@ if (isset($_POST['submit'])) {
 <?php
 }
 ?>
+ -->
