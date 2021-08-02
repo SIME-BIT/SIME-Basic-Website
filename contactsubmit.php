@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 	$email_from = 'btech10685.18@bitmesra.ac.in';
 
 	$email_subject = "New Form submission";
@@ -16,20 +16,20 @@
 
   mail($to,$email_subject,$email_body,$headers);
     
-?> -->
+?>
 
 
-
+<!-- 
 hello
 
 
 
 
+ -->
 
 
 
-
-
+<!-- 
 
 
 
@@ -109,4 +109,4 @@ if (isset($_POST['submit'])) {
 <?php
 }
 ?>
- -->
+ --> -->
