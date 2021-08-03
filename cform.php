@@ -168,7 +168,7 @@
 
         <!--Grid column-->
         <div class="justify-content-center col-lg-8 contact-form">
-            <form id="contact-form" name="contact-form" action="contact.php" method="POST">
+            <form id="contact-form" name="contact-form" action="cform.php" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
