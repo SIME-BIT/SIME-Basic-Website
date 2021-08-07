@@ -31,3 +31,37 @@
     font-weight: 550;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.column {
+  float: left;
+  width: 25%;
+  height:100%;
+  padding: 5px;
+}
+
+.icon1 {
+  
+  float: left;
+  width: 45%;
+  height:90%;
+  padding: 5px;
+}
+
+.btn {
+  background-color: rgb(59, 57, 57);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-family:Arial;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  font-size:80%;
+  line-height: 1;
+  border-radius:3px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(117, 121, 121);
+}
