@@ -35,7 +35,7 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="cform.css" />
   </head>
 
   <body>
@@ -127,8 +127,8 @@
     <div class="row">
 
         <!--Grid column-->
-        <div class="justify-content-center col-lg-8 contact-form">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        <div class="justify-content-center col-lg-8 google-sheet">
+            <form id="google-sheet" name="google-sheet" method="POST">
 
                 <!--Grid row-->
                 <div class="row">
@@ -136,7 +136,7 @@
                     <!--Grid column-->
                     <div class="col-md-6 ">
                         <div class="md-form mb-0 ">
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Full Name" required>
+                            <input type="text" id="name" name="Name" class="form-control" placeholder="Full Name" required>
                             <!-- <label for="name" class="">Your name</label> -->
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="email" id="email" name="email" class="form-control" placeholder="email-id" required>
+                            <input type="email" id="email" name="Email" class="form-control" placeholder="email-id" required>
                             <!-- <label for="email" class="">Your email</label> -->
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                   <!--Grid column-->
                   <div class="col-md-6">
                       <div class="md-form mb-0">
-                          <input type="text" id="name" name="number"class="form-control" placeholder="Phone Number">
+                          <input type="text" id="name" name="Number"class="form-control" placeholder="Phone Number" >
                           <!-- <label for="name" class="">phone number</label> -->
                       </div>
                   </div>
@@ -169,7 +169,7 @@
                   <!--Grid column-->
                   <div class="col-md-6">
                       <div class="md-form mb-0">
-                          <input type="text" id="email" name="subject"class="form-control" placeholder="Subject" required>
+                          <input type="text" id="email" name="Subject"class="form-control" placeholder="Subject" required>
                           <!-- <label for="email" class="">subject</label> -->
                       </div>
                   </div>
@@ -185,20 +185,23 @@
                     <div class="col-md-12">
 
                         <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea" placeholder="Message" required></textarea>
+                            <textarea type="text" id="message" name="Message" rows="3" class="form-control md-textarea" placeholder="Message" required></textarea>
                             <!-- <label for="message">Your message</label> -->
                         </div>
 
                     </div>
                 </div>
                 <!--Grid row-->
+                <div class="text-center">
+                  <button  class="btn btn-info" type="submit">
+                   Send
+                  </button>
+                </div>
+                <div class="status"></div>
 
             </form>
 
-            <div class="text-center text-md-left">
-                <a class="d-flex btn btn-primary contact-button justify-content-center" onclick="document.getElementById('contact-form').submit();">Send</a>
-            </div>
-            <div class="status"></div>
+           
         </div>
         <!--Grid column-->
     </div>
@@ -261,10 +264,21 @@
 
       <!-- Auto-close the navbar in mobile view -->
 
-      <script>
+      <!-- <script>
         $('.contact-button').click(function(){
             $(".navbar-collapse").collapse('hide');
         });
-    </script>
+    </script> -->
+    <script>   
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwgm5MUpG7QRzgihZehnfJi0ZRWnOkjOqTSMr-PxLdyyHT7VDBVrH6UAqoZ4UYgv-tJ/exec'
+              const form = document.forms['google-sheet']
+      
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            })
+      </script> 
   </body>
 </html>
