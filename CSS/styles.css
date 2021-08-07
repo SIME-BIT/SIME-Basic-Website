@@ -196,7 +196,7 @@ nav, .dropdown-menu{
 
 label,.form-control{
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .form-control{
