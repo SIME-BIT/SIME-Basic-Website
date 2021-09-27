@@ -48,6 +48,13 @@
   padding: 5px;
 }
 
+.column1 {
+  float: left;
+  width: 50%;
+  height: 10%;
+  padding: 5px;
+}
+
 .icon1 {
   
   float: left;
