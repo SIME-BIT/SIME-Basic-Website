@@ -312,3 +312,37 @@ hr{
         width: 20%;
     }
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .containerl {
+    padding: 50px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66l {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33l {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66l,
+    .column-33l {
+      width: 100%;
+      text-align: center;
+    }
+  }
