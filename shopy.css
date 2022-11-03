@@ -409,7 +409,7 @@ justify-content: space-between;
   }
 
   #p1 {
-
+    height:fit-content;
     width: 60%;
   }
 
@@ -444,6 +444,7 @@ justify-content: space-between;
 
   #p1{
     width: 85%;
+    height:fit-content;
   }
 
   .order .row form .inputBox input{
