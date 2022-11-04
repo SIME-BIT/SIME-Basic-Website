@@ -27,7 +27,7 @@ html{
 }
 
 body{
-  background:#310070;
+  background: rgb(15, 0, 36);
 }
 
 section{
@@ -60,10 +60,9 @@ section{
 }
 
 .btn{
-  display: inline-block;
   padding:.8rem 3rem;
   /*    */
-  border:.2rem solid var(--red);
+  border:.2rem solid var(--white);
   color:var(--red);
   cursor: pointer;
   font-size: 1.7rem;
@@ -72,6 +71,11 @@ section{
   overflow: hidden;
   z-index: 0;
   margin-top: 1rem;
+  background-color: orange;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  display: grid;
 }
 
 .btn::before{
@@ -142,9 +146,9 @@ header .navbar a:hover{
   flex-wrap: wrap;
   gap:1.5rem;
   min-height: 100vh;
-  background-color: rgb(19, 0, 54);
+  background-color: rgb(15, 0, 36);
   align-items: center;
-  background:url(verve.jpeg) no-repeat;
+  background:url(Images/VERVE.png) no-repeat;
   background-size: contain ;
   background-position: center;
 }
@@ -375,7 +379,7 @@ justify-content: space-between;
   .home{
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(31, 2, 62);
+    background-color: rgb(15, 0, 36);
     background-position: center;
     min-height: 35vh;
   }
