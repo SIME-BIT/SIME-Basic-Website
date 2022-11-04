@@ -16,7 +16,7 @@
 
 *::selection{
   background:var(--red);
-  color:#fff;
+  color:rgb(43, 2, 75);
 }
 
 html{
@@ -27,7 +27,7 @@ html{
 }
 
 body{
-  background:#f7f7f7;
+  background:#310070;
 }
 
 section{
@@ -120,11 +120,11 @@ header .logo i{
 header .navbar a{
   font-size: 2rem;
   margin-left: 2rem;
-  color:rgb(252, 249, 71);
+  color:rgb(255, 149, 0);
 }
 
 header .navbar a:hover{
-  color:white;
+  color:rgb(255, 230, 0);
 }
 
 #menu-bar{
@@ -390,7 +390,7 @@ justify-content: space-between;
   header .navbar{
     position: absolute;
     top:100%; left: 0; right:0;
-    background: #f7f7f7;
+    background: #a0a0a0;
     border-top: .1rem solid rgba(0,0,0,.1);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
@@ -403,9 +403,9 @@ justify-content: space-between;
     margin: 1.5rem;
     padding:1.5rem;
     display: block;
-    border:.2rem solid rgba(0,0,0,.1);
+    border:.2rem solid rgba(255, 166, 0, 0.1);
     border-left:.5rem solid var(--red);
-    background:rgb(5, 87, 211);
+    background:rgb(27, 0, 60);
   }
 
   .proj{
