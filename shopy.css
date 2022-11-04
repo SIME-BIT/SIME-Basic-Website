@@ -142,9 +142,10 @@ header .navbar a:hover{
   flex-wrap: wrap;
   gap:1.5rem;
   min-height: 100vh;
+  background-color: rgb(19, 0, 54);
   align-items: center;
   background:url(verve.jpeg) no-repeat;
-  background-size: cover ;
+  background-size: contain ;
   background-position: center;
 }
 
@@ -227,7 +228,7 @@ justify-content: space-between;
 #desc1{
   width: 35%;
   height: 50vh;
-  background-image: url(SOLID.jpeg);
+  background-image: url(Images/SW.jpeg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -367,8 +368,17 @@ justify-content: space-between;
 
 }
 
+
 @media(max-width:768px){
 
+
+  .home{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(31, 2, 62);
+    background-position: center;
+    min-height: 35vh;
+  }
   .home .content p{
     color: #66ff00;
   }
